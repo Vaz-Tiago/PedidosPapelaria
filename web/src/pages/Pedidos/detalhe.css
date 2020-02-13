@@ -1,0 +1,52 @@
+table.listaItens {
+  border: none;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+}
+table.listaItens td, table.listaItens th {
+  border: none;
+  padding: 10px 0px;
+}
+table.listaItens tbody td {
+  font-size: 14px;
+  color: #333333;
+}
+table.listaItens tr:nth-child(even) {
+  background: #CCCCCC;
+}
+table.listaItens thead {
+  background: #0D2636;
+}
+table.listaItens thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 20px 0px;
+}
+table.listaItens tfoot {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #0D2738;
+}
+table.listaItens tfoot td {
+  font-size: 16px;
+}
+table.listaItens tfoot .links {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+
+
+.botaoRemover {
+  background: transparent;
+  border: none;
+  padding: 6px 10px;
+}
+
+.botaoRemover:disabled {
+  cursor: not-allowed;
+}
